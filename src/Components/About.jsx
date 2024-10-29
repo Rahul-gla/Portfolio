@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,19 +24,25 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+  "I'm a B.Tech 3rd-year student at GLA University, passionate about web development. I enjoy crafting unique and user-friendly interfaces through innovative and creative approaches.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
   "Web design",
-  "User experience",
+  "User  experience",
   "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
   "Graphic design",
+  "Java programming",
+  "Data Structures and Algorithms (DSA)",
+  "React.js",
+  "MongoDB database management",
+  "Backend development (Node.js, Express)",
+  "Version control (Git)",
+  "Responsive web design",
+  "Authentication and authorization",
+  "Deployment and CI/CD",
 ];
 
 /**
@@ -45,8 +51,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "I am passionate about creating innovative web solutions that enhance user experiences. By leveraging my skills in frontend and backend development, I continually seek new and efficient ways to make technology accessible to everyone.";
 const About = () => {
   return (
     <section className="padding" id="about">
